@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# readlink -f doesn't work with macOS's implementation (BSD in general?)
+# readlink -f doesn't work with macOS's implementation
 # so, if we can't get readlink -f to work, try python with a realpath implementation
 ABS_PATH=$(readlink -f "$0" || python -c "import sys, os; print(os.path.realpath('$0'))")
 
