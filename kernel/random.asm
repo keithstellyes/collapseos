@@ -1,6 +1,7 @@
 ; Part of kernel because ideally we have some sort of entropy. For now,
 ; just having it be user-provided for prototypical purposes.
-; Implementation by John Metcalf of 
+; This is the HiSoft C compiler output for a C Implementation written and compiled
+; by John Metcalf of 
 ; http://www.retroprogramming.com/2017/07/xorshift-pseudorandom-numbers-in-z80.html
 ; (Slightly altered for CollapseOS)
 ;
