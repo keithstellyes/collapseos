@@ -32,3 +32,5 @@
 .equ	printcrlf		@+3
 .equ	stdioPutC		@+3
 .equ	stdioReadLine	@+3
+.equ	printHexPair	@+3
+.equ	rnd	@+3

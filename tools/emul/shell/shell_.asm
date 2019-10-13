@@ -39,10 +39,13 @@
 	jp	printcrlf
 	jp	stdioPutC
 	jp	stdioReadLine
+	jp	printHexPair
+	jp	rnd
 
 .inc "core.asm"
 .inc "err.h"
 .inc "parse.asm"
+.inc "random.asm"
 
 .equ	BLOCKDEV_RAMSTART	RAMSTART
 .equ	BLOCKDEV_COUNT		4
